@@ -911,3 +911,48 @@ html {
     font-size: 1rem;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero .glass-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero .glass-box .neon-btn,
+  .hero .glass-box .cv-btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+/* Ensure buttons stack vertically between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .btn-group-wrapper {
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+
+  .btn-group-wrapper a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Optional: Also stack for smaller screens */
+@media (max-width: 767.98px) {
+  .btn-group-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-group-wrapper a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .about-img {
+    max-width: 220px;
+    margin-top: 5rem;
+  }
+}
