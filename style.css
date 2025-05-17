@@ -897,3 +897,17 @@ html {
     box-shadow: 0 6px 15px rgba(0, 255, 247, 0.2);
   }
 }
+@media (max-width: 768px) {
+  .hero .glass-box {
+    padding: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .hero .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero .hero-subtitle {
+    font-size: 1rem;
+  }
+}
